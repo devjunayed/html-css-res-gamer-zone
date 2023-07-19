@@ -9,6 +9,29 @@
         flex-direction: column;
         gap: 0px;
     }
+    .banner-container{
+        margin-top: 200px;
+        flex-direction: column-reverse;
+
+        gap: 40px;
+    }
+    .banner-container img{
+        margin-right: 0px;
+        width: 70% !important;
+    }
+    .banner-content-bg{
+        background:none;
+    }
+    .banner-content{
+        margin-left: 0px;
+
+    }
+    .banner-content h1{
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 0.7rem;
+    }
 }
 /* tablet devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -17,5 +40,8 @@
     }
     ul{
         margin-top: 20px;
+    }
+    .banner-container img{
+        width: 40%;
     }
 }
