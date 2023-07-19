@@ -84,7 +84,6 @@ nav ul li p {
     width: 100%;
   height: 100vh;
   display: flex;
-  /* padding: 40px 100px 0px 100px; */
   align-items: center;
   justify-content: space-between;
 }
@@ -136,4 +135,36 @@ nav ul li p {
 .btn-go-rogue{
     background-color: #4EC5F7;
     color: white;
+}
+/* we are gamer */
+.gamer-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.gamer-container img{
+    width: 60%;
+    gap: 20px;
+}
+.gamer-content h1{
+    font-size: 2rem;
+    font-weight: 800;
+    background: var(--color-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-content p{
+    font-size: 1rem;
+    margin: 20px 0px;
+}
+.gamer-content h3{
+    color: #534C64;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 700;
 }
