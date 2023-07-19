@@ -1,0 +1,71 @@
+/* Work sans fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-gradient: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --primary-color: #ff42a5;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+.letter-g {
+  color: var(--primary-color);
+}
+/* navbar */
+nav {
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav .logo {
+  font-size: 1rem;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+nav .logo img {
+  width: 65px;
+  height: 30px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a,
+nav ul li p {
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.follow-us {
+    align-items: center;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  gap: 18px;
+}
+.follow-us i{
+    font-size: 2rem;
+}
+.fa-youtube{
+    color: red;
+}
