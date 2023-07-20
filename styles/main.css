@@ -279,7 +279,7 @@ font-weight: 700;
 .career-container{
   padding: 100px;
   background-color: var(--primary-color);
-  background-image: url(/images/group_65.png);
+  background-image: url('/images/group_65.png');
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -314,4 +314,32 @@ font-weight: 700;
   background-color: white;
   width: 30%;
   color: var(--primary-color);
+}
+
+
+/* category section */
+.category-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 90px;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+.category{
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.category:hover{
+  border-radius: 30px;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 4px 19px;
+  border: 1px solid var(--primary-color);
+
+}
+.category img{
+  width: 48px;
 }

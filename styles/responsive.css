@@ -70,6 +70,13 @@
     .career-content{
         width: 100%;
     }
+    .category-container{
+        font-size: 0.8rem;
+        padding: 20px 0px;
+    }
+    .category-container img{
+        width: 24px;
+    }
 }
 /* tablet devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -119,5 +126,12 @@
     }
     .career-content{
         width: 100%;
+    }
+    .category-container{
+        font-size: 0.8rem;
+        padding: 20px 0px;
+    }
+    .category-container img{
+        width: 24px;
     }
 }
