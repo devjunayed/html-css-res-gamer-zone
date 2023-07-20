@@ -77,6 +77,9 @@
     .category-container img{
         width: 24px;
     }
+    .footer{
+        padding: 100px 10px;
+    }
 }
 /* tablet devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
