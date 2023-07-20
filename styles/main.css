@@ -247,7 +247,7 @@ font-weight: 700;
 .play-instantly{
   display: 100%;
   display: flex;
-  padding: 100px;
+  padding: 100px 100px 0px 100px;
   gap: 50px;
 
 }
@@ -274,4 +274,44 @@ font-weight: 700;
   position: relative;
   bottom: 200px;
   left: -100px;
+}
+/* Careers section */
+.career-container{
+  padding: 100px;
+  background-color: var(--primary-color);
+  background-image: url(/images/group_65.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  display: flex;
+}
+.career-content{
+  color: white;
+  width: 50%;
+}
+.career-content h3{
+  font-size: 1.6rem;
+  
+}
+.career-content p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: white;
+  margin: 10px 0px;
+}
+.career-content .positions{
+  display: flex;
+  gap: 80px
+}
+.career-content ul{
+  line-height: 30px;
+  list-style: none;
+}
+
+.career-content .btn{
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  color: var(--primary-color);
 }
