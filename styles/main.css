@@ -242,3 +242,36 @@ font-weight: 700;
     cursor: pointer;
     opacity: 0.7;
 }
+
+/* play instantly section */
+.play-instantly{
+  display: 100%;
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+
+}
+.play-instant-text-content{
+  margin-top: 150px;
+  width: 60%;
+  text-align: center;
+}
+.play-instant-text-content p{
+  margin: 20px auto;
+  width: 55%;
+}
+.play-instant-img-content{
+  position: relative ;
+  width: 40%;
+}
+.img-top{
+
+
+  width: 100%;
+}
+.img-bottom{
+  width: 50%;
+  position: relative;
+  bottom: 200px;
+  left: -100px;
+}
