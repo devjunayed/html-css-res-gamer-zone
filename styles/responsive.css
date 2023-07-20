@@ -40,6 +40,14 @@
     .gamer-container img{
         width: 100%;
     }
+    .funny-videos-container{
+        padding: 40px;
+    }
+    .funny-videos-container h1{
+    }
+    .cards-container{
+        flex-direction: column;
+    }
 }
 /* tablet devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -59,5 +67,9 @@
     }
     .gamer-container img{
         width: 100%;
+    }
+    .cards-container{
+        gap: 60px;
+        flex-wrap: wrap;
     }
 }
